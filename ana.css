@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+body {
+    margin: 0;
+    background-color: c0c0c0;
+     font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering:optimizeLegibility;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #B22222;
+        padding: 10px 0;
+        color: #000000;
+        z-index: 10;
+    }
+    .fixed-header{
+        top: 0;
+        border-bottom: solid;
+        border-color: #000000;
+    }
+    .fixed-footer{
+        bottom: 0;
+        border-top: solid;
+        border-color: #000000;
+    }    
+ 
+    nav a{
+        color:#B22222 ;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 20%;
+
+    background-color: #B22222;
+
+    position: fixed;
+
+    height: 100%;
+
+    overflow: auto;
+     border-right: solid;
+     border-color: #000000;
+}
+
+li a {
+    display: block;
+
+    color: #000000;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+}
+
+li a.active {
+    background-color: #555;
+
+    color: white;
+    font-style: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: #000000;
+
+    color:#B22222 ;
+}
